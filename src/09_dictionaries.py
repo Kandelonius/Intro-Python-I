@@ -55,8 +55,10 @@ print(waypoints[0])
 
 # Write a loop that prints out all the field values for all the waypoints
 i = 0
-for  waypoints[i] in waypoints:
+for waypoints[i] in waypoints:
     for elem in waypoints[i]:
         print(waypoints[i][f"{elem}"])
     i+=1
 
+# for w in waypoints: #not my code, just a reminder
+#     print(w.values())
