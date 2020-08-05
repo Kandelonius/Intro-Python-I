@@ -27,4 +27,4 @@ print(f"The length of x is: {len(x)}.")
 
 # Print all the values in x multiplied by 1000
 for elem in x:
-    print(elem*1000)
+    print(elem * 1000)

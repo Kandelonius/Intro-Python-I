@@ -15,7 +15,6 @@ y = "7"
 
 print(f"5 + 7 is {x + int(y)}")
 
-
 # Write a print statement that combines x + y into the string value 57
 
 print(f"5 + 7 is {str(x) + y}")

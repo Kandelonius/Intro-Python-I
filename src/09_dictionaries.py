@@ -63,7 +63,7 @@ i = 0
 for waypoints[i] in waypoints:
     for elem in waypoints[i]:
         print(waypoints[i][f"{elem}"])
-    i+=1
+    i += 1
 
 # for w in waypoints: #not my code, just a reminder
 #     print(w.values())

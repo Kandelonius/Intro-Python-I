@@ -15,8 +15,10 @@ class Waypoint:
         self.name = name
         self.lat = lat
         self.lon = lon
+
     def __str__(self):
-        return 'Waypoint(name='+self.name+', lat='+str(self.lat)+', lon='+str(self.lon)+ ')'
+        return 'Waypoint(name=' + self.name + ', lat=' + str(self.lat) + ', lon=' + str(self.lon) + ')'
+
 
 # Make a class Geocache that can be passed parameters `name`, `difficulty`,
 # `size`, `lat`, and `lon` to the constructor. What should it inherit from?
@@ -28,8 +30,10 @@ class Geocache:
         self.size = size
         self.lat = lat
         self.lon = lon
+
     def __repr__(self):
-        return '{name:'+self.name+', difficulty:'+str(self.difficulty)+', size:'+str(self.size)+', latitude:'+str(self.lat)+' longitude:'+str(self.lon)+ '}'
+        return '{name:' + self.name + ', difficulty:' + str(self.difficulty) + ', size:' + str(
+            self.size) + ', latitude:' + str(self.lat) + ' longitude:' + str(self.lon) + '}'
 
 
 # Make a new waypoint and print it out: "Catacombs", 41.70505, -121.51521
@@ -43,7 +47,9 @@ print(waypoint)
 
 # Make a new geocache "Newberry Views", diff 1.5, size 2, 44.052137, -121.41556
 
-geacache("Newberry Views", 1.5, 2, 44.052137, -121.41556)
+geocache = Geocache("Newberry Views", 1.5, 2, 44.052137, -121.41556)
 
 # Print it--also make this print more nicely
-print(Geocache)
+print(geocache)
+
+print(LatLon)

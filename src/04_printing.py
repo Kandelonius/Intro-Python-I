@@ -11,11 +11,11 @@ z = "I like turtles!"
 # Using the printf operator (%), print the following feeding in the values of x,
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
-print("Print modulo method: x is %2d, y is %3.2f, z is %s" %(x, y, z)) 
+print("Print modulo method: x is %2d, y is %3.2f, z is %s" % (x, y, z))
 
 # Use the 'format' string method to print the same thing
 txt = "x is {x:2d}, y is {y:.2f}, z is {z:s}"
-print(txt.format(x = x, y = y, z = z))
+print(txt.format(x=x, y=y, z=z))
 
 # Finally, print the same thing using an f-string
 print(f"f-string method: x is {str(x)}, y is {str(round(y, 2))}, z is {z}")

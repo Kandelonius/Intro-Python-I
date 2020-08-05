@@ -3,6 +3,7 @@
 def is_even(a):
     return (a % 2 == 0)
 
+
 odd_or_even = input("Enter a number to be evaluated ")
 print(is_even(int(odd_or_even)))
 
@@ -12,7 +13,7 @@ num = int(num)
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
-if(num % 2 == 0):
+if (num % 2 == 0):
     print("Even")
 else:
     print("Odd")

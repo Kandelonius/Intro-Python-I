@@ -18,8 +18,8 @@ print(a[1])
 print(a[-1])
 
 # Output the last three elements in the array: [7, 9, 6]
-print(f"hard coded way {a[3: 6]}") # I don't like this hard-coded inplementation, would prefer a[-3, last index]
-print(f"general way {a[-3: ]}")
+print(f"hard coded way {a[3: 6]}")  # I don't like this hard-coded inplementation, would prefer a[-3, last index]
+print(f"general way {a[-3:]}")
 
 # Output the two middle elements in the array: [1, 7]
 print(a[2: 4])
