@@ -43,9 +43,14 @@ if (args_len == 1):
 elif (args_len == 2):
     mm = int(sys.argv[1])
 
-else:
+elif (args_len == 3):
     mm = int(sys.argv[1])
     yy = int(sys.argv[2])
+
+else:
+    print("the system only accepts up to two arguments. format should be mm yyyy.")
+    sys.exit(1)
+
 
 # sys.argv = ['14_cal.py','arg1', 'arg2']
 # execfile('14_cal.py')
